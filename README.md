@@ -67,7 +67,11 @@ The application is built with:
 
 - Pydantic – Library used for data validation to ensure correct request formats
 
-The application validates JSON data sent in the POST request to ensure all required fields are properly populated. If any fields are missing or incorrectly formatted, the API returns an HTTP 400 status code with an appropriate error message. The points awarded are in line with the specified rules. The code is structured to ensure that each component can be tested individually.
+- Swagger - Tool used to document the API endpoints request and response format
+
+The application validates JSON data sent in the POST request to ensure all required fields are properly populated. If any fields are missing or incorrectly formatted, the API returns an HTTP 400 status code with an appropriate error message. The points awarded are in line with the specified rules.
+
+The application is documented with the help of Swagger. The config file used is in line with the api.yml specified in the challenge. When the values specified for the fields are incorrect, the response body includes an appropriate error message indicating the same. This is added in the schema.
 
 Current Limitations & Future Improvements:
 
