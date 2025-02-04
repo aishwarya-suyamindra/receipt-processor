@@ -24,6 +24,13 @@ Clone the repository:
 git clone https://github.com/aishwarya-suyamindra/receipt-processor.git
 ```
 
+Navigate to the directory:
+
+
+```
+cd receipt-processor
+```
+
 The application can be run with Docker:
 
 1. **Build the docker image:**
