@@ -62,7 +62,7 @@ Alternatively, to run the application locally, ensure Python is installed.
 3. **Run the flask application**
 
     ```bash
-    python app.py
+    python3 app.py
     ```
 
 The application should be running on http://localhost:4000.
